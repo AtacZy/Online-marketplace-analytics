@@ -1,0 +1,52 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# === Виртуальные окружения ===
+.venv/
+venv/
+env/
+ENV/
+
+# === Jupyter ===
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# === Секреты и ключи ===
+.env
+.env.local
+*.key
+*.pem
+credentials.json
+
+# === Логи ===
+logs/
+*.log
+
+# === Данные ===
+temp_data/
+*.csv
+*.parquet
+*.json.gz
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Docker ===
+*.pid
